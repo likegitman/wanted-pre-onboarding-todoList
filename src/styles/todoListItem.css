@@ -1,0 +1,38 @@
+.todoListItem {
+    width: 100%;
+    height: 34px;
+    border: 2px solid black;
+    display: flex;
+    margin-top: 14px;
+    padding: 10px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.todoListItem:nth-child(1) {
+    margin-top: 0;
+}
+
+.todoListItem:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+.todoListItem .todoListText {
+    width: 50%;
+}
+
+.todoListItem .todoCheckedText {
+    width: 50%;
+    color: lightgray;
+    text-decoration: line-through;
+}
+
+.todoListItem .todoModifyInput {
+    padding: 10px;
+    width: 50%;
+}
+
+.todoListItem .todoListBtnBox button{
+    margin-left: 10px;
+    cursor: pointer;
+}
